@@ -7,6 +7,7 @@ def is_prime(n, i=2):
         return True
     return is_prime(n, i + 1)
 
+
 l_ = []
 for i in range(10000, 99999):
     if is_prime(i) and str(i) == str(i)[::-1]:
